@@ -9,4 +9,7 @@ describe('leapyear', function(){
     it('should say 2004 is a leap year',function(){
         expect(leap(2004)).toEqual('leap year');
     });
+    it('should say 2011 is not a  leap year',function(){
+        expect(leap(2011)).toEqual('not a leap year');
+    });
 })
